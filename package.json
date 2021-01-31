@@ -2,6 +2,7 @@
   "name": "contenful-app-grid-builder",
   "version": "0.1.0",
   "private": true,
+  "author": {"email": "hallo@storch.media", "name": "Kevin Storch"},
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -65,7 +66,7 @@
     "url-loader": "2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3003 react-scripts start",
     "build": "react-scripts build",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"src/**/*.{js,ts,tsx}\" --config .eslintrc --ignore-path .eslintignore --fix"
