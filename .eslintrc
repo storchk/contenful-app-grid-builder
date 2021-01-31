@@ -1,0 +1,24 @@
+{
+  "plugins": ["@typescript-eslint", "prettier", "react"],
+  "env": {
+    "jest": true,
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "prettier/@typescript-eslint",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "@typescript-eslint/ban-ts-ignore": 0
+  }
+}
